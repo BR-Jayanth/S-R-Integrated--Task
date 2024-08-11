@@ -1,0 +1,23 @@
+.Hero-main-container {
+    width: 1920px;
+    height: 273px;
+    background: rgb(239, 239, 238);
+    background: linear-gradient(90deg, rgba(239, 239, 238, 1) 0%, rgba(252, 212, 107, 1) 100%);
+    /* position: relative; */
+    z-index: 1;
+}
+
+.hero-slide-image {
+    position: absolute;
+    top: 559px;
+    left: 1200px;
+    /* bottom: 10px; */
+    z-index: 1;
+}
+
+.hero-feedback-image {
+    margin-top: 60px;
+    margin-left: 440px;
+    margin-bottom: 13px;
+    z-index: 1;
+}

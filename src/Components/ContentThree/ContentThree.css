@@ -1,0 +1,113 @@
+.contentThree-main-container{
+    height: 645px;
+    width: 1920px;
+    position: relative;
+    z-index: 1;
+    margin-top: 909px;
+}
+
+.contentThree-main-container-blue{
+    background-color:#9BAED9 ;
+    height: 551px;
+}
+.contentThree-main-container-white{
+    background-color: white;
+    height: 94px;
+}
+.contentThree-main-container-content{
+  position: absolute;
+  top: 124px;
+  left: 410px;
+  right: 410px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.contentThree-main-container-content-heading h1{
+font-family: inter;
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 40px;
+color: #ffff;
+margin-bottom: 10px;
+
+}
+.contentThree-main-container-content-heading h2{
+    font-family: inter;
+    font-size: 1.2rem;
+    line-height: 26px;
+    color: #ffff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.contentThree-main-container-content-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.contentThree-main-container-content-body-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    align-content: center;
+    margin-right: 155px;
+}
+.contentThree-main-container-content-body-right{
+    margin-left: 625px;
+    display: flex;
+    flex-direction: column;
+   position: relative;
+}
+.contentThree-main-container-content-body-right #b1{
+    position: absolute;
+    top: 183px;
+}
+
+.contentThree-main-container-content-body-left1-heading{
+    font-family: inter;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 2.1px;
+    color: #ffff;
+}
+.contentThree-main-container-content-body-left1-content{
+    font-family: inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 21px;
+   color: #282D33;
+}
+.contentThree-main-container-content-body-center{
+    position: relative;
+    z-index: 1;
+}
+
+.contentThree-main-container-content-body-center #setting{
+    z-index: 2;
+    position: absolute;
+    top:-90px;
+}
+.contentThree-main-container-content-body-center #arc1{
+    z-index: 3;
+    position: absolute;
+    top:-130px;
+    left: -200px;
+}
+.contentThree-main-container-content-body-center #arc2{
+    z-index: 3;
+    position: absolute;
+    top:50px;
+    left: -180px;
+}
+.contentThree-main-container-content-body-center #arc3{
+    z-index: 3;
+    position: absolute;
+    top:-70px;
+    left: 400px;
+}
